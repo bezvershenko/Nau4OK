@@ -59,7 +59,7 @@ class ArticleList extends Component {
                     <div className="header-wrapper text-center">
                         <div className="header-content container">
                             <div className="col-md-10 offset-md-1">
-                                <div className="display-4 text-center">Научок.рф - новые статьи о науке</div>
+                                <div className="display-4 text-center">Научок.рф - научные факты для всех (0+)</div>
                                 <p className="text-center">
                                     На этом сайте вы каждый день сможете получать новые и интересные статьи, которые
                                     пишут не только редакторы и модераторы, но и обычные пользователи. Присоединяйтесь!
