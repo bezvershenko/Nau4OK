@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import axios from "axios";
-import * as constants from "../../constants";
+import * as constants from "../constants";
 
 export default class Commentary extends Component {
     state = {
@@ -30,7 +30,7 @@ export default class Commentary extends Component {
     render() {
         const {comment} = this.props;
 
-        let avatar = require('../../static/images/default-avatar.png');
+        let avatar = require('../static/images/default-avatar.png');
         const author = this.state.author;
 
         if (author.avatar) {

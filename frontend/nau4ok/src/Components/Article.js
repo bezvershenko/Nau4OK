@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
-import Commentary from "../Commentary";
-import LeaveComment from "../LeaveComment";
+import Commentary from "./Commentary";
+import LeaveComment from "./LeaveComment";
 import {withRouter} from "react-router-dom";
 import connect from "react-redux/es/connect/connect";
-import {LOCALHOST} from "../../constants";
+import {LOCALHOST} from "../constants";
 
 
 class Article extends Component {
@@ -30,8 +30,8 @@ class Article extends Component {
         const {article, author} = this.props;
 
         let articleTitle = article.title ? article.title : 'Title is not specified';
-        let articleImage = article.image ? article.image : require('../../static/images/image.jpg');
-        let avatar = author.avatar ? author.avatar : require('../../static/images/default-avatar.png');
+        let articleImage = article.image ? article.image : require('../static/images/image.jpg');
+        let avatar = author.avatar ? author.avatar : require('../static/images/default-avatar.png');
 
         let paragraphs = article.text ? (
             article.text.split('\n').map(par => {

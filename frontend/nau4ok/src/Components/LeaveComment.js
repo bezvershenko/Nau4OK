@@ -2,8 +2,8 @@ import React, {Component} from 'react'
 import {withRouter} from "react-router-dom";
 import connect from "react-redux/es/connect/connect";
 import axios from 'axios'
-import * as constants from '../../constants'
-import {LOCALHOST} from "../../constants";
+import * as constants from '../constants'
+import {LOCALHOST} from "../constants";
 
 class LeaveComment extends Component {
     state = {
@@ -30,7 +30,7 @@ class LeaveComment extends Component {
     };
 
     render() {
-        let avatar = this.props.avatar ? LOCALHOST + this.props.avatar : require('../../static/images/default-avatar.png');
+        let avatar = this.props.avatar ? LOCALHOST + this.props.avatar : require('../static/images/default-avatar.png');
 
         return (
             <div className="floating-container comment-container">
