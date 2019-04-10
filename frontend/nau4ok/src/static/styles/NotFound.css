@@ -1,0 +1,23 @@
+.notfound-container {
+  width: 900px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.image404 {
+  width: 80%;
+}
+@media screen and (max-width: 700px) {
+  .image404 {
+    width: 100%;
+  }
+}
+.upper-text {
+  font-size: 45px;
+  font-weight: bold;
+}
+@media screen and (max-width: 700px) {
+  .upper-text {
+    font-size: 28px;
+  }
+}
+/*# sourceMappingURL=NotFound.css.map */

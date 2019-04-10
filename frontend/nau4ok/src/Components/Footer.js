@@ -33,7 +33,7 @@ export default class Footer extends Component {
                                 Telegram-канал
                             </a>
 
-                            <a href="#" className="footer-link">
+                            <a href="https://vk.com/nau4ok" className="footer-link">
                                 Группа ВКонтакте
                             </a>
 
