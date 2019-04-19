@@ -75,7 +75,6 @@ class Article extends Component {
         if (author.first_name && author.last_name) {
             fullName = author.first_name + ' ' + author.last_name;
         }
-        console.log(author);
 
         return (
             <div className="container">

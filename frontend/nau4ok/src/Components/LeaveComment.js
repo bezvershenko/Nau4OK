@@ -26,7 +26,6 @@ class LeaveComment extends Component {
         this.setState({
             commentText: event.target.value,
         });
-        console.log(event.target.value)
     };
 
     render() {

@@ -19,7 +19,6 @@ class ProfileView extends Component {
         let profileID = this.props.match.params.profileID;
 
         if (profileID === undefined) profileID = this.props.userId;
-        console.log(profileID);
 
         axios.get(`${constants.LOCALHOST}/api/users/${profileID}`).then(res => {
             this.setState({
@@ -32,7 +31,6 @@ class ProfileView extends Component {
 
     render() {
         if (this.state.mounted) {
-            console.log(this.state.user);
             return (
                 <Profile user={this.state.user}/>
             )

@@ -35,7 +35,7 @@ class Profile extends Component {
                             else if (response !== null) {
                                 return (<div className="activity-content">
                                     <h4>Пользователь {this.state.user.username} оставил комментарий к статье: </h4><h4>
-                                    <a href={`/articles/${comment.article}`}>{response.data.title}</a></h4>
+                                    <a href={`/статьи/${comment.article}`}>{response.data.title}</a></h4>
                                     <b>Комментарий</b>: {comment.text}
                                 </div>)
                             }
